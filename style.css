@@ -11,13 +11,17 @@ input::-webkit-outer-spin-button,
       }
 #area
 {
-    position: relative;
-   display: flex;
-    width: 500px;
-    height: 395px;
-    left: 50%;
-    top: 250px;
-    line-height: 40px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50vh;
+
+  position: absolute;
+ 
+ 
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
 
 }
 
